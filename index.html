@@ -25,7 +25,17 @@
     <section id="1">
         <h3>Part 1 - <span class="head-text-dark">var vs let/const</span></h3>
         <p><b>Instructions: </b>Open the browser inspector and review the JS code for part 1.  
-          Reviewing the output, explain how var scopes differently than let and why we'd use <b>let</b> over <b>var</b>.</p>
+          Reviewing the output, explain how var scopes differently than let and why we'd use <b>let</b> over <b>var</b>. </p>
+          <p>
+            The difference between var and let is the variable scope. Var is function scoped which means it can be redeclared or reassigned.
+          This means that in the example, it will keep the 50 both in and outside of the code block. On the other hand, let is block scoped, which means it can be
+          reassigned but not redeclared. In the example, this means that the code in the if statement will respect the a = 50 variable declaration
+          while the statement outside of the if statement will respect the variable declaration outside of the if statement block.
+          </p>
+          <!-- The difference between var and let is the variable scope. Var is function scoped which means it can be redeclared or reassigned.
+           This means that in the example, it will keep the 50 both in and outside of the code block. On the other hand, let is block scoped, which means it can be
+           reassigned but not redeclared. In the example, this means that the code in the if statement will respect the a = 50 variable declaration
+           while the statement outside of the if statement will respect the variable declaration outside of the if statement block.  -->
     </section>
  
     <section id="2">
